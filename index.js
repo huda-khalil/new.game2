@@ -45,6 +45,7 @@ function renderGame() {
         message = "You've got Blackjack!"
     } else {
         message = "OOOOh Maryooooom! You are out of the Gam!!!!!!"
+        isAlive = false
     }
 
     messageEl.textContent = message
